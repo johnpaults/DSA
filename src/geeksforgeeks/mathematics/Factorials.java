@@ -1,15 +1,15 @@
 package geeksforgeeks.mathematics;
 
 public class Factorials {
-    public static int findFact(int num) {
-        int fact = 1;
+    public static double findFact(int num) {
+        double fact = 1L;
         for (int i = 2; i <= num; i++) {
             fact = fact*i;
         }
         return fact;
     }
 
-    public static int findFactorialsRecrusion(int num) {
+    public static double findFactorialsRecrusion(int num) {
         if (num == 0) {
             return 1;
         }

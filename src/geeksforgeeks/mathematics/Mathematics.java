@@ -9,5 +9,8 @@ public class Mathematics {
         System.out.println("Factorials of 100 is " + Factorials.findFact(10));
         System.out.println("Factorials of 5 using recursion is " + Factorials.findFactorialsRecrusion(10));
         System.out.println("Trailing no of zeros in factorials of 100 is " + new TrailingZerosOfFactorials().findTailingZeroOfFact(10));
+        System.out.println("GCD of 9 and 27 is " + GCD.findGCD(9, 27));
+        System.out.println("LCM of 45 and 30 is " + LCM.findLCM(45, 30));
+        System.out.println("Is 13 is prime number ? " + (PrimeNumber.isPrimeNumber(13) ? "yes" : "no"));
     }
 }

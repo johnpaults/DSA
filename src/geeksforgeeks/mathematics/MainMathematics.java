@@ -2,7 +2,7 @@ package geeksforgeeks.mathematics;
 
 import java.time.LocalTime;
 
-public class Mathematics {
+public class MainMathematics {
     public static void main(String ...args) {
         System.out.println("Number of digits of the number 764647223 is " + FindDigit.numberOfDigit(764647223));
         System.out.println("Palindrome of 100001 is " + Palindrome.isPalindromeNumber(100001));
@@ -13,5 +13,7 @@ public class Mathematics {
         System.out.println("LCM of 45 and 30 is " + LCM.findLCM(45, 30));
         System.out.println("Is 13 is prime number ? " + (PrimeNumber.isPrimeNumber(13) ? "yes" : "no"));
         DivisiorOfNumber.printDivisorOfNum(15);
+        System.out.println();
+        System.out.println("Power of 5 is " + ComputingPower.findPower(5, 6));
     }
 }

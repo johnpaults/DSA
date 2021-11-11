@@ -15,5 +15,6 @@ public class MainMathematics {
         DivisiorOfNumber.printDivisorOfNum(15);
         System.out.println();
         System.out.println("Power of 5 is " + ComputingPower.findPower(5, 6));
+        System.out.println("Power of 5 by iterative method is " + ComputingPower.interativePower(5, 6));
     }
 }

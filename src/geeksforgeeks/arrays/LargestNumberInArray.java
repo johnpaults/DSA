@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class LargestNumberInArray {
     public static void main(String[] args) {
         int arr[] = {232, 454, 234, 874};
-        System.out.println("args = " + new LargestNumberInArray().findLargest(arr));
+        System.out.println("largest = " + new LargestNumberInArray().findLargest(arr));
         int arr2[] = {10, 111, 190, 10};
         System.out.println("args = " + new LargestNumberInArray().secondLargest(arr2));
     }

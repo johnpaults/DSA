@@ -13,7 +13,7 @@ package geeksforgeeks.arrays;
 
 public class MinimumDistanceBetweenTwoNumbers {
     public static void main(String[] args) {
-        int [] arr = {34, 45, 74, 21, 34, 34};
+        int [] arr = {34, 45, 74, 21, 33, 34};
         System.out.println(findMinDis(6,arr,21, 34 ));
     }
 
